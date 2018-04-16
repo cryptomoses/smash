@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {SharedModule} from '../shared/shared.module' ;
+
 
 @Component({
   selector: 'smash-home',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) { }
 
   ngOnInit() {
   }
