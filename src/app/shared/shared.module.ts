@@ -9,7 +9,6 @@ import { ProgramInfoComponent } from './program-info/program-info.component';
     CommonModule
   ],
   declarations: [ScheduleComponent, SmashScreenComponent, ProgramInfoComponent],
-  exports:[ScheduleComponent,SmashScreenComponent, ProgramInfoComponent]
-  
-})
+  exports: [ScheduleComponent, SmashScreenComponent , ProgramInfoComponent]
+  })
 export class SharedModule { }
