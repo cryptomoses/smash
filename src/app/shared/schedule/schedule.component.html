@@ -1,3 +1,25 @@
-<p>
-  schedule works!
-</p>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Channel One</th>
+      <th scope="col">Channel Two</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <th scope="row"> {{ dateNow | date: 'hh' }}:00</th>
+      <td>Fox News</td>
+      <td>Hello USA</td>
+    
+    </tr>
+    <tr>
+      <th scope="row">{{dateNext | date: 'hh' }}:00</th>
+      <td>News Time</td>
+      <td>Comedy Hour</td>
+    
+    </tr>
+    
+     </tbody>
+</table> 

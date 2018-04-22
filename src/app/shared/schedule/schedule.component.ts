@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScheduleComponent implements OnInit {
 
+dateNow: Date = new Date();
+hours  =  60 * 60 * 1000 ;
+dateNext: Date = new Date(this.dateNow.getMilliseconds() + this.hours);
+
   constructor() { }
 
   ngOnInit() {
